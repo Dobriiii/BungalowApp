@@ -10,6 +10,7 @@ namespace BungalowApp.Data
     public virtual AppUser? User { get; set; }
     public DateTime ReservationDate { get; set; }
     public virtual List<Bungalow> Bungalows { get; set; }
+    public string Description { get; set; }
     public ReservationList()
     {
       Bungalows = new List<Bungalow>();
